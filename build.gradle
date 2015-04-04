@@ -70,6 +70,23 @@ compileJava {
     options.encoding = 'UTF-8'
 }
 
+sourceSets {
+    main {
+        java {
+            srcDir 'src/java'
+        }
+        resources {
+            srcDir 'src/resources'
+        }
+    }
+
+    fml {
+        java {
+            srcDir 'FML/src/main/java'
+        }
+    }
+}
+
 // Simple build script information
 buildscript {
     repositories {
