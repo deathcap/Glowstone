@@ -183,6 +183,7 @@
                 </executions>
             </plugin>
 
+<!-- TODO: re-enable but not for FML source
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-checkstyle-plugin</artifactId>
@@ -198,9 +199,10 @@
                 <configuration>
                     <configLocation>${project.basedir}/etc/checkstyle.xml</configLocation>
                     <headerLocation>LICENSE</headerLocation>
+                    <excludes>FML</excludes>
                 </configuration>
             </plugin>
-
+-->
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>build-helper-maven-plugin</artifactId>
