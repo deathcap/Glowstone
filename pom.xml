@@ -94,6 +94,13 @@
             <scope>provided</scope>
         </dependency>
 
+        <!-- LegacyLauncher -->
+       <dependency>
+            <groupId>net.sf.jopt-simple</groupId>
+            <artifactId>jopt-simple</artifactId>
+            <version>4.5</version>
+        </dependency>
+
         <!-- FML/MLIA -->
        <dependency>
             <groupId>net.sf.trove4j</groupId>
@@ -213,6 +220,7 @@
                         <configuration>
                             <sources>
                                 <source>FML/src/main/java</source>
+                                <source>LegacyLauncher/src/main/java</source>
                             </sources>
                         </configuration>
                     </execution>
