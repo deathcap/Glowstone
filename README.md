@@ -1,3 +1,6 @@
+Note: This branch (bukkitapi183) has been moved to https://github.com/deathcap/GlowstonePlusPlus
+===
+
 Glowstone
 ==========
 
